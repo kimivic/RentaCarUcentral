@@ -1,0 +1,5 @@
+Logica aplicada:
+
+Se logra determinar de acuerdo a lo escrito en el enunciado, que siempre que el sensor A se encuentre activado,
+el proceso se detendrá! caso contrario deberán existir dos o mas sensores para que el proceso sea detenido, 
+para todas las demás combinaciones posibles, el proceso se mantiene en ejecución.
