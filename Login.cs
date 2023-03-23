@@ -12,10 +12,15 @@ namespace Proyecto
 {
     public partial class frmLogin : Form
     {
+        //El logueo al sistema no debe de permitir acceso a usuarios internos en estado inactivo.
         public frmLogin()
         {
             InitializeComponent();
         }
 
+        private void frmLogin_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }

@@ -462,6 +462,7 @@
             this.Controls.Add(this.label2);
             this.Name = "frmPreReservaVehiculo";
             this.Text = "PRE RESERVA DEL VEHÍCULO";
+            this.Load += new System.EventHandler(this.frmPreReservaVehiculo_Load);
             this.groupBox1.ResumeLayout(false);
             this.groupBox1.PerformLayout();
             this.grbAlquiler.ResumeLayout(false);

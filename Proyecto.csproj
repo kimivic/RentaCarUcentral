@@ -12,6 +12,21 @@
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
     <Deterministic>true</Deterministic>
+    <PublishUrl>publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <PlatformTarget>AnyCPU</PlatformTarget>
@@ -46,17 +61,65 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Acerca.cs">
+    <Compile Include="frmEstadClaseVehiculo.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Acerca.Designer.cs">
-      <DependentUpon>Acerca.cs</DependentUpon>
+    <Compile Include="frmEstadClaseVehiculo.Designer.cs">
+      <DependentUpon>frmEstadClaseVehiculo.cs</DependentUpon>
     </Compile>
-    <Compile Include="frmEstadística.cs">
+    <Compile Include="frmMantenimientoEstados.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="frmEstadística.Designer.cs">
-      <DependentUpon>frmEstadística.cs</DependentUpon>
+    <Compile Include="frmMantenimientoEstados.Designer.cs">
+      <DependentUpon>frmMantenimientoEstados.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmMantenimientoEstReserva.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmMantenimientoEstReserva.Designer.cs">
+      <DependentUpon>frmMantenimientoEstReserva.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmMantenimientoLocalidades.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmMantenimientoLocalidades.Designer.cs">
+      <DependentUpon>frmMantenimientoLocalidades.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmMantenimientoReserva.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmMantenimientoReserva.Designer.cs">
+      <DependentUpon>frmMantenimientoReserva.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmMantenimientoServicios.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmMantenimientoServicios.Designer.cs">
+      <DependentUpon>frmMantenimientoServicios.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmMantenimientoUSuarios.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmMantenimientoUSuarios.Designer.cs">
+      <DependentUpon>frmMantenimientoUSuarios.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmManualUsuario.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmManualUsuario.Designer.cs">
+      <DependentUpon>frmManualUsuario.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Créditos.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Créditos.Designer.cs">
+      <DependentUpon>Créditos.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmEstadIgresosxMes.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmEstadIgresosxMes.Designer.cs">
+      <DependentUpon>frmEstadIgresosxMes.cs</DependentUpon>
     </Compile>
     <Compile Include="frmFacturarReserva.cs">
       <SubType>Form</SubType>
@@ -64,58 +127,58 @@
     <Compile Include="frmFacturarReserva.Designer.cs">
       <DependentUpon>frmFacturarReserva.cs</DependentUpon>
     </Compile>
+    <Compile Include="frmMantenimientoClases.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmMantenimientoClases.Designer.cs">
+      <DependentUpon>frmMantenimientoClases.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmMantenimientoContactos.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmMantenimientoContactos.Designer.cs">
+      <DependentUpon>frmMantenimientoContactos.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmMantenimientoPerfiles.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmMantenimientoPerfiles.Designer.cs">
+      <DependentUpon>frmMantenimientoPerfiles.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmMantenimientoVehiculos.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmMantenimientoVehiculos.Designer.cs">
+      <DependentUpon>frmMantenimientoVehiculos.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmMediosPago.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmMediosPago.Designer.cs">
+      <DependentUpon>frmMediosPago.cs</DependentUpon>
+    </Compile>
     <Compile Include="frmReportes.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="frmReportes.Designer.cs">
       <DependentUpon>frmReportes.cs</DependentUpon>
     </Compile>
-    <Compile Include="Mantenimientos\frmMantClases.cs">
+    <Compile Include="frmMantLocalidades.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Mantenimientos\frmMantClases.Designer.cs">
-      <DependentUpon>frmMantClases.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Mantenimientos\frmMantContactos.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="Mantenimientos\frmMantContactos.Designer.cs">
-      <DependentUpon>frmMantContactos.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Mantenimientos\frmMantEstadoReservas.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="Mantenimientos\frmMantEstadoReservas.Designer.cs">
-      <DependentUpon>frmMantEstadoReservas.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Mantenimientos\frmMantEstados.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="Mantenimientos\frmMantEstados.Designer.cs">
-      <DependentUpon>frmMantEstados.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Mantenimientos\frmMantLocalidades.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="Mantenimientos\frmMantLocalidades.Designer.cs">
+    <Compile Include="frmMantLocalidades.Designer.cs">
       <DependentUpon>frmMantLocalidades.cs</DependentUpon>
     </Compile>
-    <Compile Include="Mantenimientos\frmMantMediosPago.cs">
+    <Compile Include="frmMantMediosPago.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Mantenimientos\frmMantMediosPago.Designer.cs">
+    <Compile Include="frmMantMediosPago.Designer.cs">
       <DependentUpon>frmMantMediosPago.cs</DependentUpon>
     </Compile>
-    <Compile Include="Mantenimientos\frmMantPerfiles.cs">
+    <Compile Include="frmMantPersonas.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Mantenimientos\frmMantPerfiles.Designer.cs">
-      <DependentUpon>frmMantPerfiles.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Mantenimientos\frmMantPersonas.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="Mantenimientos\frmMantPersonas.Designer.cs">
+    <Compile Include="frmMantPersonas.Designer.cs">
       <DependentUpon>frmMantPersonas.cs</DependentUpon>
     </Compile>
     <Compile Include="frmPreReservaVehiculo.cs">
@@ -129,30 +192,6 @@
     </Compile>
     <Compile Include="Login.Designer.cs">
       <DependentUpon>Login.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Mantenimientos\frmMantReservas.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="Mantenimientos\frmMantReservas.Designer.cs">
-      <DependentUpon>frmMantReservas.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Mantenimientos\frmMantServicios.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="Mantenimientos\frmMantServicios.Designer.cs">
-      <DependentUpon>frmMantServicios.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Mantenimientos\frmMantUsuarios.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="Mantenimientos\frmMantUsuarios.Designer.cs">
-      <DependentUpon>frmMantUsuarios.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Mantenimientos\frmMantVehiculos.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="Mantenimientos\frmMantVehiculos.Designer.cs">
-      <DependentUpon>frmMantVehiculos.cs</DependentUpon>
     </Compile>
     <Compile Include="frmRegistro.cs">
       <SubType>Form</SubType>
@@ -168,37 +207,64 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <EmbeddedResource Include="Acerca.resx">
-      <DependentUpon>Acerca.cs</DependentUpon>
+    <EmbeddedResource Include="frmEstadClaseVehiculo.resx">
+      <DependentUpon>frmEstadClaseVehiculo.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="frmEstadística.resx">
-      <DependentUpon>frmEstadística.cs</DependentUpon>
+    <EmbeddedResource Include="frmMantenimientoEstados.resx">
+      <DependentUpon>frmMantenimientoEstados.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmMantenimientoEstReserva.resx">
+      <DependentUpon>frmMantenimientoEstReserva.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmMantenimientoLocalidades.resx">
+      <DependentUpon>frmMantenimientoLocalidades.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmMantenimientoReserva.resx">
+      <DependentUpon>frmMantenimientoReserva.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmMantenimientoServicios.resx">
+      <DependentUpon>frmMantenimientoServicios.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmMantenimientoUSuarios.resx">
+      <DependentUpon>frmMantenimientoUSuarios.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmManualUsuario.resx">
+      <DependentUpon>frmManualUsuario.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Créditos.resx">
+      <DependentUpon>Créditos.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmEstadIgresosxMes.resx">
+      <DependentUpon>frmEstadIgresosxMes.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="frmFacturarReserva.resx">
       <DependentUpon>frmFacturarReserva.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="frmMantenimientoClases.resx">
+      <DependentUpon>frmMantenimientoClases.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmMantenimientoContactos.resx">
+      <DependentUpon>frmMantenimientoContactos.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmMantenimientoPerfiles.resx">
+      <DependentUpon>frmMantenimientoPerfiles.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmMantenimientoVehiculos.resx">
+      <DependentUpon>frmMantenimientoVehiculos.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmMediosPago.resx">
+      <DependentUpon>frmMediosPago.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="frmReportes.resx">
       <DependentUpon>frmReportes.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Mantenimientos\frmMantClases.resx">
-      <DependentUpon>frmMantClases.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Mantenimientos\frmMantEstadoReservas.resx">
-      <DependentUpon>frmMantEstadoReservas.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Mantenimientos\frmMantEstados.resx">
-      <DependentUpon>frmMantEstados.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Mantenimientos\frmMantLocalidades.resx">
+    <EmbeddedResource Include="frmMantLocalidades.resx">
       <DependentUpon>frmMantLocalidades.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Mantenimientos\frmMantMediosPago.resx">
+    <EmbeddedResource Include="frmMantMediosPago.resx">
       <DependentUpon>frmMantMediosPago.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Mantenimientos\frmMantPerfiles.resx">
-      <DependentUpon>frmMantPerfiles.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Mantenimientos\frmMantPersonas.resx">
+    <EmbeddedResource Include="frmMantPersonas.resx">
       <DependentUpon>frmMantPersonas.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="frmPreReservaVehiculo.resx">
@@ -209,18 +275,6 @@
     </EmbeddedResource>
     <EmbeddedResource Include="frmRegistro.resx">
       <DependentUpon>frmRegistro.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Mantenimientos\frmMantReservas.resx">
-      <DependentUpon>frmMantReservas.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Mantenimientos\frmMantServicios.resx">
-      <DependentUpon>frmMantServicios.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Mantenimientos\frmMantUsuarios.resx">
-      <DependentUpon>frmMantUsuarios.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Mantenimientos\frmMantVehiculos.resx">
-      <DependentUpon>frmMantVehiculos.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="MenuPrincipal.resx">
       <DependentUpon>MenuPrincipal.cs</DependentUpon>
@@ -246,6 +300,18 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include=".NETFramework,Version=v4.8">
+      <Visible>False</Visible>
+      <ProductName>Microsoft .NET Framework 4.8 %28x86 y x64%29</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

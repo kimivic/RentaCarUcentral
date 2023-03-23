@@ -40,7 +40,7 @@
             // btnIngreso
             // 
             this.btnIngreso.Location = new System.Drawing.Point(172, 176);
-            this.btnIngreso.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.btnIngreso.Margin = new System.Windows.Forms.Padding(4);
             this.btnIngreso.Name = "btnIngreso";
             this.btnIngreso.Size = new System.Drawing.Size(164, 89);
             this.btnIngreso.TabIndex = 0;
@@ -50,7 +50,7 @@
             // btnRegistro
             // 
             this.btnRegistro.Location = new System.Drawing.Point(404, 176);
-            this.btnRegistro.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.btnRegistro.Margin = new System.Windows.Forms.Padding(4);
             this.btnRegistro.Name = "btnRegistro";
             this.btnRegistro.Size = new System.Drawing.Size(165, 89);
             this.btnRegistro.TabIndex = 1;
@@ -82,7 +82,7 @@
             // txtUsuario
             // 
             this.txtUsuario.Location = new System.Drawing.Point(120, 91);
-            this.txtUsuario.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.txtUsuario.Margin = new System.Windows.Forms.Padding(4);
             this.txtUsuario.Name = "txtUsuario";
             this.txtUsuario.Size = new System.Drawing.Size(215, 22);
             this.txtUsuario.TabIndex = 4;
@@ -90,7 +90,7 @@
             // txtContrasena
             // 
             this.txtContrasena.Location = new System.Drawing.Point(487, 91);
-            this.txtContrasena.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.txtContrasena.Margin = new System.Windows.Forms.Padding(4);
             this.txtContrasena.Name = "txtContrasena";
             this.txtContrasena.Size = new System.Drawing.Size(205, 22);
             this.txtContrasena.TabIndex = 5;
@@ -123,9 +123,10 @@
             this.Controls.Add(this.txtUsuario);
             this.Controls.Add(this.lblContrasena);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
-            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.Margin = new System.Windows.Forms.Padding(4);
             this.Name = "frmLogin";
             this.Text = "Login";
+            this.Load += new System.EventHandler(this.frmLogin_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 

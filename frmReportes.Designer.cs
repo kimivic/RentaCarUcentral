@@ -69,6 +69,7 @@
             this.imgReporte.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.imgReporte.TabIndex = 2;
             this.imgReporte.TabStop = false;
+            this.imgReporte.Click += new System.EventHandler(this.imgReporte_Click);
             // 
             // lblDíaReporte
             // 
@@ -96,6 +97,7 @@
             this.btnSalir.TabIndex = 10;
             this.btnSalir.Text = "Salir";
             this.btnSalir.UseVisualStyleBackColor = true;
+            this.btnSalir.Click += new System.EventHandler(this.btnSalir_Click);
             // 
             // btnRegresar
             // 
@@ -106,6 +108,7 @@
             this.btnRegresar.TabIndex = 9;
             this.btnRegresar.Text = "Regresar al menú";
             this.btnRegresar.UseVisualStyleBackColor = true;
+            this.btnRegresar.Click += new System.EventHandler(this.btnRegresar_Click);
             // 
             // lblIndicaciones
             // 
@@ -134,6 +137,7 @@
             this.Controls.Add(this.lblSubtítuloReporte);
             this.Name = "frmReportes";
             this.Text = "REPORTES";
+            this.Load += new System.EventHandler(this.frmReportes_Load);
             ((System.ComponentModel.ISupportInitialize)(this.imgReporte)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
