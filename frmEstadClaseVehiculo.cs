@@ -23,7 +23,7 @@ namespace Proyecto
         {
 
         }
-
+        // regresa al menu
         private void btnRegresar_Click(object sender, EventArgs e)
         {
             Form MenuPrincipal = new frmMenu();
@@ -31,12 +31,12 @@ namespace Proyecto
 
             this.Hide();
         }
-
+        // sale aplicacion
         private void btnSalir_Click(object sender, EventArgs e)
         {
             Application.Exit();
         }
-
+        // envia a un excel con estadisticas del vehiculo
         private void imgEstadística_Click(object sender, EventArgs e)
         {
             System.Diagnostics.Process.Start(@"C:\Users\kimiv\Downloads\Proyecto\Proyecto\Estadisticas\Estadistica_clase_vehiculo.xlsx");

@@ -16,10 +16,22 @@ namespace Proyecto
         {
             InitializeComponent();
         }
-
+         // Proceso de facturacion de la reserva 
         private void frmFacturarReserva_Load(object sender, EventArgs e)
         {
 
+        }
+        private void btnRegresar_Click(object sender, EventArgs e)
+        {
+            Form MenuPrincipal = new frmMenu();
+            MenuPrincipal.Show();
+
+            this.Hide();
+        }
+
+        private void btnSalir_Click(object sender, EventArgs e)
+        {
+            Application.Exit();
         }
     }
 }
