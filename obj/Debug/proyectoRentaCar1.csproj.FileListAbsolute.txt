@@ -24,3 +24,16 @@ C:\claseViernes\proyectoRentaCarFinal\obj\Debug\proyectoRentaCar1.pdb
 C:\claseViernes\proyectoRentaCarFinal\bin\Debug\proyectoRentaCar1.exe.config
 C:\claseViernes\proyectoRentaCarFinal\bin\Debug\proyectoRentaCar1.exe
 C:\claseViernes\proyectoRentaCarFinal\bin\Debug\proyectoRentaCar1.pdb
+C:\Users\kimiv\Downloads\proyectoRentaCarFinal\proyectoRentaCarFinal\bin\Debug\proyectoRentaCar1.exe.config
+C:\Users\kimiv\Downloads\proyectoRentaCarFinal\proyectoRentaCarFinal\bin\Debug\proyectoRentaCar1.exe
+C:\Users\kimiv\Downloads\proyectoRentaCarFinal\proyectoRentaCarFinal\bin\Debug\proyectoRentaCar1.pdb
+C:\Users\kimiv\Downloads\proyectoRentaCarFinal\proyectoRentaCarFinal\obj\Debug\proyectoRentaCar1.csproj.AssemblyReference.cache
+C:\Users\kimiv\Downloads\proyectoRentaCarFinal\proyectoRentaCarFinal\obj\Debug\proyectoRentaCar1.csproj.SuggestedBindingRedirects.cache
+C:\Users\kimiv\Downloads\proyectoRentaCarFinal\proyectoRentaCarFinal\obj\Debug\proyectoRentaCar1.frmPrincipal.resources
+C:\Users\kimiv\Downloads\proyectoRentaCarFinal\proyectoRentaCarFinal\obj\Debug\proyectoRentaCar1.Properties.Resources.resources
+C:\Users\kimiv\Downloads\proyectoRentaCarFinal\proyectoRentaCarFinal\obj\Debug\proyectoRentaCar1.frmRegistro.resources
+C:\Users\kimiv\Downloads\proyectoRentaCarFinal\proyectoRentaCarFinal\obj\Debug\proyectoRentaCar1.frmSesion.resources
+C:\Users\kimiv\Downloads\proyectoRentaCarFinal\proyectoRentaCarFinal\obj\Debug\proyectoRentaCar1.csproj.GenerateResource.cache
+C:\Users\kimiv\Downloads\proyectoRentaCarFinal\proyectoRentaCarFinal\obj\Debug\proyectoRentaCar1.csproj.CoreCompileInputs.cache
+C:\Users\kimiv\Downloads\proyectoRentaCarFinal\proyectoRentaCarFinal\obj\Debug\proyectoRentaCar1.exe
+C:\Users\kimiv\Downloads\proyectoRentaCarFinal\proyectoRentaCarFinal\obj\Debug\proyectoRentaCar1.pdb
