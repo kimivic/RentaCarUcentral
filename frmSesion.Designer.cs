@@ -45,29 +45,32 @@
             this.lblInicioSesion.AutoSize = true;
             this.lblInicioSesion.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblInicioSesion.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.lblInicioSesion.Location = new System.Drawing.Point(42, 9);
+            this.lblInicioSesion.Location = new System.Drawing.Point(56, 11);
+            this.lblInicioSesion.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblInicioSesion.Name = "lblInicioSesion";
-            this.lblInicioSesion.Size = new System.Drawing.Size(160, 24);
+            this.lblInicioSesion.Size = new System.Drawing.Size(201, 29);
             this.lblInicioSesion.TabIndex = 17;
             this.lblInicioSesion.Text = "Inicio de Sesion";
             // 
             // txtPass
             // 
             this.txtPass.ForeColor = System.Drawing.SystemColors.MenuHighlight;
-            this.txtPass.Location = new System.Drawing.Point(14, 160);
+            this.txtPass.Location = new System.Drawing.Point(19, 197);
+            this.txtPass.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.txtPass.Name = "txtPass";
             this.txtPass.ShortcutsEnabled = false;
-            this.txtPass.Size = new System.Drawing.Size(221, 20);
+            this.txtPass.Size = new System.Drawing.Size(293, 22);
             this.txtPass.TabIndex = 16;
             this.txtPass.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.textBox2_KeyPress);
             // 
             // txtU
             // 
             this.txtU.ForeColor = System.Drawing.SystemColors.MenuHighlight;
-            this.txtU.Location = new System.Drawing.Point(14, 92);
+            this.txtU.Location = new System.Drawing.Point(19, 113);
+            this.txtU.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.txtU.Name = "txtU";
             this.txtU.ShortcutsEnabled = false;
-            this.txtU.Size = new System.Drawing.Size(221, 20);
+            this.txtU.Size = new System.Drawing.Size(293, 22);
             this.txtU.TabIndex = 15;
             this.txtU.TextChanged += new System.EventHandler(this.textBox1_TextChanged);
             this.txtU.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.textBox1_KeyPress);
@@ -77,9 +80,10 @@
             this.lblContraseña.AutoSize = true;
             this.lblContraseña.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblContraseña.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.lblContraseña.Location = new System.Drawing.Point(9, 125);
+            this.lblContraseña.Location = new System.Drawing.Point(12, 154);
+            this.lblContraseña.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblContraseña.Name = "lblContraseña";
-            this.lblContraseña.Size = new System.Drawing.Size(116, 24);
+            this.lblContraseña.Size = new System.Drawing.Size(146, 29);
             this.lblContraseña.TabIndex = 14;
             this.lblContraseña.Text = "Contraseña";
             // 
@@ -88,17 +92,19 @@
             this.lblUsuario.AutoSize = true;
             this.lblUsuario.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblUsuario.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.lblUsuario.Location = new System.Drawing.Point(11, 55);
+            this.lblUsuario.Location = new System.Drawing.Point(15, 68);
+            this.lblUsuario.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblUsuario.Name = "lblUsuario";
-            this.lblUsuario.Size = new System.Drawing.Size(81, 24);
+            this.lblUsuario.Size = new System.Drawing.Size(103, 29);
             this.lblUsuario.TabIndex = 13;
             this.lblUsuario.Text = "Usuario";
             // 
             // btnCancelar
             // 
-            this.btnCancelar.Location = new System.Drawing.Point(137, 211);
+            this.btnCancelar.Location = new System.Drawing.Point(183, 260);
+            this.btnCancelar.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.btnCancelar.Name = "btnCancelar";
-            this.btnCancelar.Size = new System.Drawing.Size(98, 25);
+            this.btnCancelar.Size = new System.Drawing.Size(131, 31);
             this.btnCancelar.TabIndex = 21;
             this.btnCancelar.Text = "Cancelar";
             this.btnCancelar.UseVisualStyleBackColor = true;
@@ -106,9 +112,10 @@
             // 
             // btnAceptar
             // 
-            this.btnAceptar.Location = new System.Drawing.Point(12, 211);
+            this.btnAceptar.Location = new System.Drawing.Point(16, 260);
+            this.btnAceptar.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.btnAceptar.Name = "btnAceptar";
-            this.btnAceptar.Size = new System.Drawing.Size(98, 25);
+            this.btnAceptar.Size = new System.Drawing.Size(131, 31);
             this.btnAceptar.TabIndex = 20;
             this.btnAceptar.Text = "Aceptar";
             this.btnAceptar.UseVisualStyleBackColor = true;
@@ -118,9 +125,10 @@
             // 
             this.llabelContraseña.AutoSize = true;
             this.llabelContraseña.LinkColor = System.Drawing.Color.Black;
-            this.llabelContraseña.Location = new System.Drawing.Point(63, 274);
+            this.llabelContraseña.Location = new System.Drawing.Point(84, 337);
+            this.llabelContraseña.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.llabelContraseña.Name = "llabelContraseña";
-            this.llabelContraseña.Size = new System.Drawing.Size(114, 13);
+            this.llabelContraseña.Size = new System.Drawing.Size(143, 16);
             this.llabelContraseña.TabIndex = 23;
             this.llabelContraseña.TabStop = true;
             this.llabelContraseña.Text = "Recuperar Contraseña";
@@ -128,27 +136,29 @@
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(241, 99);
+            this.label1.Location = new System.Drawing.Point(321, 122);
+            this.label1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(26, 13);
+            this.label1.Size = new System.Drawing.Size(29, 16);
             this.label1.TabIndex = 24;
             this.label1.Text = "txtU";
             // 
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(241, 167);
+            this.label2.Location = new System.Drawing.Point(321, 206);
+            this.label2.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(41, 13);
+            this.label2.Size = new System.Drawing.Size(50, 16);
             this.label2.TabIndex = 25;
             this.label2.Text = "txtPass";
             // 
             // frmSesion
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.HotTrack;
-            this.ClientSize = new System.Drawing.Size(477, 344);
+            this.ClientSize = new System.Drawing.Size(396, 423);
             this.ControlBox = false;
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
@@ -160,6 +170,7 @@
             this.Controls.Add(this.txtU);
             this.Controls.Add(this.lblContraseña);
             this.Controls.Add(this.lblUsuario);
+            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.Name = "frmSesion";
             this.Text = "Menu de inicio de sesion";
             this.ResumeLayout(false);
