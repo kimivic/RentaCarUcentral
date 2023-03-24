@@ -8,7 +8,7 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace Proyecto.Properties
+namespace proyectoRentaCar1.Properties
 {
 
 
