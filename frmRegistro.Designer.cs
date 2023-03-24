@@ -1,4 +1,4 @@
-﻿namespace Proyecto
+﻿namespace proyectoRentaCar1
 {
     partial class frmRegistro
     {
@@ -28,321 +28,183 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.govDatos = new System.Windows.Forms.GroupBox();
-            this.dtpFechaNac = new System.Windows.Forms.DateTimePicker();
-            this.txtApellido2 = new System.Windows.Forms.TextBox();
-            this.btnCrearUsuario = new System.Windows.Forms.Button();
-            this.txtApellido1 = new System.Windows.Forms.TextBox();
-            this.lblApellido1 = new System.Windows.Forms.Label();
-            this.lblApellido2 = new System.Windows.Forms.Label();
-            this.txtContraseña2 = new System.Windows.Forms.TextBox();
+            this.btnAceptar = new System.Windows.Forms.Button();
+            this.btnCancelar = new System.Windows.Forms.Button();
+            this.txtPassUNewConf = new System.Windows.Forms.TextBox();
+            this.lblConfirmarContraseña = new System.Windows.Forms.Label();
+            this.lblIResgistro = new System.Windows.Forms.Label();
+            this.txtPassUNew = new System.Windows.Forms.TextBox();
+            this.txtNomUNew = new System.Windows.Forms.TextBox();
+            this.lblContraseñaNueva = new System.Windows.Forms.Label();
+            this.lblUsuarioNuevo = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
-            this.txtContraseña1 = new System.Windows.Forms.TextBox();
-            this.txtUsuario = new System.Windows.Forms.TextBox();
-            this.txtTeléfono = new System.Windows.Forms.TextBox();
-            this.txtCorreo = new System.Windows.Forms.TextBox();
-            this.txtIdentificación = new System.Windows.Forms.TextBox();
-            this.txtNombre = new System.Windows.Forms.TextBox();
-            this.lblcontrasena = new System.Windows.Forms.Label();
-            this.lblUsuario = new System.Windows.Forms.Label();
-            this.lblTelefono = new System.Windows.Forms.Label();
-            this.lblCorreo = new System.Windows.Forms.Label();
-            this.lblNacimiento = new System.Windows.Forms.Label();
-            this.lblIdentificacion = new System.Windows.Forms.Label();
-            this.lblNombre = new System.Windows.Forms.Label();
-            this.btnSalir = new System.Windows.Forms.Button();
-            this.btnRegresar = new System.Windows.Forms.Button();
-            this.govDatos.SuspendLayout();
+            this.label2 = new System.Windows.Forms.Label();
+            this.label3 = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
-            // govDatos
+            // btnAceptar
             // 
-            this.govDatos.Controls.Add(this.dtpFechaNac);
-            this.govDatos.Controls.Add(this.txtApellido2);
-            this.govDatos.Controls.Add(this.btnCrearUsuario);
-            this.govDatos.Controls.Add(this.txtApellido1);
-            this.govDatos.Controls.Add(this.lblApellido1);
-            this.govDatos.Controls.Add(this.lblApellido2);
-            this.govDatos.Controls.Add(this.txtContraseña2);
-            this.govDatos.Controls.Add(this.label1);
-            this.govDatos.Controls.Add(this.txtContraseña1);
-            this.govDatos.Controls.Add(this.txtUsuario);
-            this.govDatos.Controls.Add(this.txtTeléfono);
-            this.govDatos.Controls.Add(this.txtCorreo);
-            this.govDatos.Controls.Add(this.txtIdentificación);
-            this.govDatos.Controls.Add(this.txtNombre);
-            this.govDatos.Controls.Add(this.lblcontrasena);
-            this.govDatos.Controls.Add(this.lblUsuario);
-            this.govDatos.Controls.Add(this.lblTelefono);
-            this.govDatos.Controls.Add(this.lblCorreo);
-            this.govDatos.Controls.Add(this.lblNacimiento);
-            this.govDatos.Controls.Add(this.lblIdentificacion);
-            this.govDatos.Controls.Add(this.lblNombre);
-            this.govDatos.Font = new System.Drawing.Font("Arial", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.govDatos.Location = new System.Drawing.Point(13, 13);
-            this.govDatos.Margin = new System.Windows.Forms.Padding(4);
-            this.govDatos.Name = "govDatos";
-            this.govDatos.Padding = new System.Windows.Forms.Padding(4);
-            this.govDatos.Size = new System.Drawing.Size(1081, 405);
-            this.govDatos.TabIndex = 0;
-            this.govDatos.TabStop = false;
-            this.govDatos.Text = "Ingrese los datos solicitados:";
+            this.btnAceptar.Location = new System.Drawing.Point(21, 354);
+            this.btnAceptar.Name = "btnAceptar";
+            this.btnAceptar.Size = new System.Drawing.Size(98, 23);
+            this.btnAceptar.TabIndex = 18;
+            this.btnAceptar.Text = "Aceptar";
+            this.btnAceptar.UseVisualStyleBackColor = true;
+            this.btnAceptar.Click += new System.EventHandler(this.btnAceptar_Click);
             // 
-            // dtpFechaNac
+            // btnCancelar
             // 
-            this.dtpFechaNac.Location = new System.Drawing.Point(704, 96);
-            this.dtpFechaNac.Name = "dtpFechaNac";
-            this.dtpFechaNac.Size = new System.Drawing.Size(365, 29);
-            this.dtpFechaNac.TabIndex = 20;
+            this.btnCancelar.Location = new System.Drawing.Point(196, 354);
+            this.btnCancelar.Name = "btnCancelar";
+            this.btnCancelar.Size = new System.Drawing.Size(98, 23);
+            this.btnCancelar.TabIndex = 19;
+            this.btnCancelar.Text = "Cancelar";
+            this.btnCancelar.UseVisualStyleBackColor = true;
+            this.btnCancelar.Click += new System.EventHandler(this.btnCancelar_Click);
             // 
-            // txtApellido2
+            // txtPassUNewConf
             // 
-            this.txtApellido2.Location = new System.Drawing.Point(849, 44);
-            this.txtApellido2.Margin = new System.Windows.Forms.Padding(4);
-            this.txtApellido2.Name = "txtApellido2";
-            this.txtApellido2.Size = new System.Drawing.Size(220, 29);
-            this.txtApellido2.TabIndex = 19;
+            this.txtPassUNewConf.ForeColor = System.Drawing.SystemColors.MenuHighlight;
+            this.txtPassUNewConf.Location = new System.Drawing.Point(42, 247);
+            this.txtPassUNewConf.Name = "txtPassUNewConf";
+            this.txtPassUNewConf.ShortcutsEnabled = false;
+            this.txtPassUNewConf.Size = new System.Drawing.Size(221, 20);
+            this.txtPassUNewConf.TabIndex = 26;
+            this.txtPassUNewConf.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.txtConfirmarContraseña_KeyPress);
             // 
-            // btnCrearUsuario
+            // lblConfirmarContraseña
             // 
-            this.btnCrearUsuario.Location = new System.Drawing.Point(420, 338);
-            this.btnCrearUsuario.Margin = new System.Windows.Forms.Padding(4);
-            this.btnCrearUsuario.Name = "btnCrearUsuario";
-            this.btnCrearUsuario.Size = new System.Drawing.Size(197, 46);
-            this.btnCrearUsuario.TabIndex = 1;
-            this.btnCrearUsuario.Text = "Crear usuario";
-            this.btnCrearUsuario.UseVisualStyleBackColor = true;
+            this.lblConfirmarContraseña.AutoSize = true;
+            this.lblConfirmarContraseña.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblConfirmarContraseña.ForeColor = System.Drawing.SystemColors.ControlLightLight;
+            this.lblConfirmarContraseña.Location = new System.Drawing.Point(37, 212);
+            this.lblConfirmarContraseña.Name = "lblConfirmarContraseña";
+            this.lblConfirmarContraseña.Size = new System.Drawing.Size(212, 24);
+            this.lblConfirmarContraseña.TabIndex = 25;
+            this.lblConfirmarContraseña.Text = "Confirmar Contraseña";
             // 
-            // txtApellido1
+            // lblIResgistro
             // 
-            this.txtApellido1.Location = new System.Drawing.Point(460, 44);
-            this.txtApellido1.Margin = new System.Windows.Forms.Padding(4);
-            this.txtApellido1.Name = "txtApellido1";
-            this.txtApellido1.Size = new System.Drawing.Size(220, 29);
-            this.txtApellido1.TabIndex = 18;
+            this.lblIResgistro.AutoSize = true;
+            this.lblIResgistro.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblIResgistro.ForeColor = System.Drawing.SystemColors.ControlLightLight;
+            this.lblIResgistro.Location = new System.Drawing.Point(38, 22);
+            this.lblIResgistro.Name = "lblIResgistro";
+            this.lblIResgistro.Size = new System.Drawing.Size(231, 24);
+            this.lblIResgistro.TabIndex = 24;
+            this.lblIResgistro.Text = "Registro Usuario Nuevo";
             // 
-            // lblApellido1
+            // txtPassUNew
             // 
-            this.lblApellido1.AutoSize = true;
-            this.lblApellido1.Location = new System.Drawing.Point(318, 49);
-            this.lblApellido1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
-            this.lblApellido1.Name = "lblApellido1";
-            this.lblApellido1.Size = new System.Drawing.Size(142, 22);
-            this.lblApellido1.TabIndex = 17;
-            this.lblApellido1.Text = "Primer apellido:";
+            this.txtPassUNew.ForeColor = System.Drawing.SystemColors.MenuHighlight;
+            this.txtPassUNew.Location = new System.Drawing.Point(42, 178);
+            this.txtPassUNew.Name = "txtPassUNew";
+            this.txtPassUNew.ShortcutsEnabled = false;
+            this.txtPassUNew.Size = new System.Drawing.Size(221, 20);
+            this.txtPassUNew.TabIndex = 23;
+            this.txtPassUNew.TextChanged += new System.EventHandler(this.txtContraseñaNueva_TextChanged);
+            this.txtPassUNew.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.txtContraseñaNueva_KeyPress);
             // 
-            // lblApellido2
+            // txtNomUNew
             // 
-            this.lblApellido2.AutoSize = true;
-            this.lblApellido2.Location = new System.Drawing.Point(688, 49);
-            this.lblApellido2.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
-            this.lblApellido2.Name = "lblApellido2";
-            this.lblApellido2.Size = new System.Drawing.Size(163, 22);
-            this.lblApellido2.TabIndex = 16;
-            this.lblApellido2.Text = "Segundo apellido:";
+            this.txtNomUNew.ForeColor = System.Drawing.SystemColors.MenuHighlight;
+            this.txtNomUNew.Location = new System.Drawing.Point(42, 105);
+            this.txtNomUNew.Name = "txtNomUNew";
+            this.txtNomUNew.ShortcutsEnabled = false;
+            this.txtNomUNew.Size = new System.Drawing.Size(221, 20);
+            this.txtNomUNew.TabIndex = 22;
+            this.txtNomUNew.TextChanged += new System.EventHandler(this.txtNombreUsuarioNuevo_TextChanged);
+            this.txtNomUNew.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.txtNombreUsuarioNuevo_KeyPress_1);
             // 
-            // txtContraseña2
+            // lblContraseñaNueva
             // 
-            this.txtContraseña2.Location = new System.Drawing.Point(704, 291);
-            this.txtContraseña2.Margin = new System.Windows.Forms.Padding(4);
-            this.txtContraseña2.Name = "txtContraseña2";
-            this.txtContraseña2.Size = new System.Drawing.Size(365, 29);
-            this.txtContraseña2.TabIndex = 15;
+            this.lblContraseñaNueva.AutoSize = true;
+            this.lblContraseñaNueva.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblContraseñaNueva.ForeColor = System.Drawing.SystemColors.ControlLightLight;
+            this.lblContraseñaNueva.Location = new System.Drawing.Point(35, 141);
+            this.lblContraseñaNueva.Name = "lblContraseñaNueva";
+            this.lblContraseñaNueva.Size = new System.Drawing.Size(116, 24);
+            this.lblContraseñaNueva.TabIndex = 21;
+            this.lblContraseñaNueva.Text = "Contraseña";
+            // 
+            // lblUsuarioNuevo
+            // 
+            this.lblUsuarioNuevo.AutoSize = true;
+            this.lblUsuarioNuevo.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblUsuarioNuevo.ForeColor = System.Drawing.SystemColors.ControlLightLight;
+            this.lblUsuarioNuevo.Location = new System.Drawing.Point(17, 65);
+            this.lblUsuarioNuevo.Name = "lblUsuarioNuevo";
+            this.lblUsuarioNuevo.Size = new System.Drawing.Size(286, 24);
+            this.lblUsuarioNuevo.TabIndex = 20;
+            this.lblUsuarioNuevo.Text = "Ingrese el nombre de usuario";
             // 
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(503, 298);
-            this.label1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label1.Location = new System.Drawing.Point(269, 108);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(187, 22);
-            this.label1.TabIndex = 14;
-            this.label1.Text = "Repita la contraseña:";
+            this.label1.Size = new System.Drawing.Size(70, 13);
+            this.label1.TabIndex = 27;
+            this.label1.Text = "txtNomUNew";
+            this.label1.Click += new System.EventHandler(this.label1_Click);
             // 
-            // txtContraseña1
+            // label2
             // 
-            this.txtContraseña1.Location = new System.Drawing.Point(128, 291);
-            this.txtContraseña1.Margin = new System.Windows.Forms.Padding(4);
-            this.txtContraseña1.Name = "txtContraseña1";
-            this.txtContraseña1.Size = new System.Drawing.Size(332, 29);
-            this.txtContraseña1.TabIndex = 13;
+            this.label2.AutoSize = true;
+            this.label2.Location = new System.Drawing.Point(269, 185);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(71, 13);
+            this.label2.TabIndex = 28;
+            this.label2.Text = "txtPassUNew";
             // 
-            // txtUsuario
+            // label3
             // 
-            this.txtUsuario.Location = new System.Drawing.Point(242, 238);
-            this.txtUsuario.Margin = new System.Windows.Forms.Padding(4);
-            this.txtUsuario.Name = "txtUsuario";
-            this.txtUsuario.Size = new System.Drawing.Size(345, 29);
-            this.txtUsuario.TabIndex = 12;
-            // 
-            // txtTeléfono
-            // 
-            this.txtTeléfono.Location = new System.Drawing.Point(242, 189);
-            this.txtTeléfono.Margin = new System.Windows.Forms.Padding(4);
-            this.txtTeléfono.Name = "txtTeléfono";
-            this.txtTeléfono.Size = new System.Drawing.Size(345, 29);
-            this.txtTeléfono.TabIndex = 11;
-            // 
-            // txtCorreo
-            // 
-            this.txtCorreo.Location = new System.Drawing.Point(242, 143);
-            this.txtCorreo.Margin = new System.Windows.Forms.Padding(4);
-            this.txtCorreo.Name = "txtCorreo";
-            this.txtCorreo.Size = new System.Drawing.Size(345, 29);
-            this.txtCorreo.TabIndex = 10;
-            // 
-            // txtIdentificación
-            // 
-            this.txtIdentificación.Location = new System.Drawing.Point(242, 93);
-            this.txtIdentificación.Margin = new System.Windows.Forms.Padding(4);
-            this.txtIdentificación.Name = "txtIdentificación";
-            this.txtIdentificación.Size = new System.Drawing.Size(253, 29);
-            this.txtIdentificación.TabIndex = 8;
-            // 
-            // txtNombre
-            // 
-            this.txtNombre.Location = new System.Drawing.Point(90, 46);
-            this.txtNombre.Margin = new System.Windows.Forms.Padding(4);
-            this.txtNombre.Name = "txtNombre";
-            this.txtNombre.Size = new System.Drawing.Size(220, 29);
-            this.txtNombre.TabIndex = 7;
-            // 
-            // lblcontrasena
-            // 
-            this.lblcontrasena.AutoSize = true;
-            this.lblcontrasena.Location = new System.Drawing.Point(8, 291);
-            this.lblcontrasena.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
-            this.lblcontrasena.Name = "lblcontrasena";
-            this.lblcontrasena.Size = new System.Drawing.Size(112, 22);
-            this.lblcontrasena.TabIndex = 6;
-            this.lblcontrasena.Text = "Contraseña:";
-            // 
-            // lblUsuario
-            // 
-            this.lblUsuario.AutoSize = true;
-            this.lblUsuario.Location = new System.Drawing.Point(12, 238);
-            this.lblUsuario.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
-            this.lblUsuario.Name = "lblUsuario";
-            this.lblUsuario.Size = new System.Drawing.Size(79, 22);
-            this.lblUsuario.TabIndex = 5;
-            this.lblUsuario.Text = "Usuario:";
-            // 
-            // lblTelefono
-            // 
-            this.lblTelefono.AutoSize = true;
-            this.lblTelefono.Location = new System.Drawing.Point(8, 189);
-            this.lblTelefono.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
-            this.lblTelefono.Name = "lblTelefono";
-            this.lblTelefono.Size = new System.Drawing.Size(163, 22);
-            this.lblTelefono.TabIndex = 4;
-            this.lblTelefono.Text = "Numero Contacto:";
-            // 
-            // lblCorreo
-            // 
-            this.lblCorreo.AutoSize = true;
-            this.lblCorreo.Location = new System.Drawing.Point(8, 146);
-            this.lblCorreo.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
-            this.lblCorreo.Name = "lblCorreo";
-            this.lblCorreo.Size = new System.Drawing.Size(174, 22);
-            this.lblCorreo.TabIndex = 3;
-            this.lblCorreo.Text = "Correo Electronico:";
-            // 
-            // lblNacimiento
-            // 
-            this.lblNacimiento.AutoSize = true;
-            this.lblNacimiento.Location = new System.Drawing.Point(503, 96);
-            this.lblNacimiento.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
-            this.lblNacimiento.Name = "lblNacimiento";
-            this.lblNacimiento.Size = new System.Drawing.Size(194, 22);
-            this.lblNacimiento.TabIndex = 2;
-            this.lblNacimiento.Text = "Fecha de Nacimiento:";
-            // 
-            // lblIdentificacion
-            // 
-            this.lblIdentificacion.AutoSize = true;
-            this.lblIdentificacion.Location = new System.Drawing.Point(8, 96);
-            this.lblIdentificacion.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
-            this.lblIdentificacion.Name = "lblIdentificacion";
-            this.lblIdentificacion.Size = new System.Drawing.Size(226, 22);
-            this.lblIdentificacion.TabIndex = 1;
-            this.lblIdentificacion.Text = "Cedula, DNI o Pasaporte:";
-            // 
-            // lblNombre
-            // 
-            this.lblNombre.AutoSize = true;
-            this.lblNombre.Location = new System.Drawing.Point(8, 49);
-            this.lblNombre.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
-            this.lblNombre.Name = "lblNombre";
-            this.lblNombre.Size = new System.Drawing.Size(83, 22);
-            this.lblNombre.TabIndex = 0;
-            this.lblNombre.Text = "Nombre:";
-            // 
-            // btnSalir
-            // 
-            this.btnSalir.Font = new System.Drawing.Font("Arial", 11.25F);
-            this.btnSalir.Location = new System.Drawing.Point(904, 438);
-            this.btnSalir.Name = "btnSalir";
-            this.btnSalir.Size = new System.Drawing.Size(181, 46);
-            this.btnSalir.TabIndex = 10;
-            this.btnSalir.Text = "Salir";
-            this.btnSalir.UseVisualStyleBackColor = true;
-            // 
-            // btnRegresar
-            // 
-            this.btnRegresar.Font = new System.Drawing.Font("Arial", 11.25F);
-            this.btnRegresar.Location = new System.Drawing.Point(708, 438);
-            this.btnRegresar.Name = "btnRegresar";
-            this.btnRegresar.Size = new System.Drawing.Size(181, 46);
-            this.btnRegresar.TabIndex = 9;
-            this.btnRegresar.Text = "Regresar al menú";
-            this.btnRegresar.UseVisualStyleBackColor = true;
+            this.label3.AutoSize = true;
+            this.label3.Location = new System.Drawing.Point(269, 254);
+            this.label3.Name = "label3";
+            this.label3.Size = new System.Drawing.Size(93, 13);
+            this.label3.TabIndex = 29;
+            this.label3.Text = "txtPassUNewConf";
             // 
             // frmRegistro
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.AutoSize = true;
-            this.BackColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.ClientSize = new System.Drawing.Size(1099, 496);
+            this.BackColor = System.Drawing.SystemColors.HotTrack;
+            this.ClientSize = new System.Drawing.Size(591, 411);
             this.ControlBox = false;
-            this.Controls.Add(this.btnSalir);
-            this.Controls.Add(this.btnRegresar);
-            this.Controls.Add(this.govDatos);
-            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
-            this.Margin = new System.Windows.Forms.Padding(4);
+            this.Controls.Add(this.label3);
+            this.Controls.Add(this.label2);
+            this.Controls.Add(this.label1);
+            this.Controls.Add(this.txtPassUNewConf);
+            this.Controls.Add(this.lblConfirmarContraseña);
+            this.Controls.Add(this.lblIResgistro);
+            this.Controls.Add(this.txtPassUNew);
+            this.Controls.Add(this.txtNomUNew);
+            this.Controls.Add(this.lblContraseñaNueva);
+            this.Controls.Add(this.lblUsuarioNuevo);
+            this.Controls.Add(this.btnCancelar);
+            this.Controls.Add(this.btnAceptar);
             this.Name = "frmRegistro";
-            this.Text = "REGISTRO DE USUARIO";
-            this.govDatos.ResumeLayout(false);
-            this.govDatos.PerformLayout();
+            this.Text = "Menu de Registro";
+            this.Load += new System.EventHandler(this.frmRegistro_Load);
             this.ResumeLayout(false);
+            this.PerformLayout();
 
         }
 
         #endregion
-
-        private System.Windows.Forms.GroupBox govDatos;
-        private System.Windows.Forms.Label lblcontrasena;
-        private System.Windows.Forms.Label lblUsuario;
-        private System.Windows.Forms.Label lblTelefono;
-        private System.Windows.Forms.Label lblCorreo;
-        private System.Windows.Forms.Label lblNacimiento;
-        private System.Windows.Forms.Label lblIdentificacion;
-        private System.Windows.Forms.Label lblNombre;
-        private System.Windows.Forms.TextBox txtContraseña1;
-        private System.Windows.Forms.TextBox txtUsuario;
-        private System.Windows.Forms.TextBox txtTeléfono;
-        private System.Windows.Forms.TextBox txtCorreo;
-        private System.Windows.Forms.TextBox txtIdentificación;
-        private System.Windows.Forms.TextBox txtNombre;
-        private System.Windows.Forms.Button btnCrearUsuario;
-        private System.Windows.Forms.TextBox txtContraseña2;
+        private System.Windows.Forms.Button btnAceptar;
+        private System.Windows.Forms.Button btnCancelar;
+        private System.Windows.Forms.TextBox txtPassUNewConf;
+        private System.Windows.Forms.Label lblConfirmarContraseña;
+        private System.Windows.Forms.Label lblIResgistro;
+        private System.Windows.Forms.TextBox txtPassUNew;
+        private System.Windows.Forms.TextBox txtNomUNew;
+        private System.Windows.Forms.Label lblContraseñaNueva;
+        private System.Windows.Forms.Label lblUsuarioNuevo;
         private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.DateTimePicker dtpFechaNac;
-        private System.Windows.Forms.TextBox txtApellido2;
-        private System.Windows.Forms.TextBox txtApellido1;
-        private System.Windows.Forms.Label lblApellido1;
-        private System.Windows.Forms.Label lblApellido2;
-        private System.Windows.Forms.Button btnSalir;
-        private System.Windows.Forms.Button btnRegresar;
+        private System.Windows.Forms.Label label2;
+        private System.Windows.Forms.Label label3;
     }
 }
