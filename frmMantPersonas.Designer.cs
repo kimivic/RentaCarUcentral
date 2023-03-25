@@ -217,6 +217,7 @@
             this.btnSalir.TabIndex = 36;
             this.btnSalir.Text = "Salir";
             this.btnSalir.UseVisualStyleBackColor = true;
+            this.btnSalir.Click += new System.EventHandler(this.btnSalir_Click);
             // 
             // btnRegresar
             // 
@@ -227,6 +228,7 @@
             this.btnRegresar.TabIndex = 35;
             this.btnRegresar.Text = "Regresar al menú";
             this.btnRegresar.UseVisualStyleBackColor = true;
+            this.btnRegresar.Click += new System.EventHandler(this.btnRegresar_Click);
             // 
             // lstMantPersonas
             // 

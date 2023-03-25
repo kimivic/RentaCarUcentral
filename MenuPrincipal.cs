@@ -186,6 +186,27 @@ namespace Proyecto
         {
 
         }
+
+        private void salirToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            Application.Exit();
+        }
+
+        private void cerrarSesiónToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            
+            {
+                Form Sesion = new frmSesion();
+                Sesion.Show();
+
+                this.Hide();
+            }
+        }
+
+        private void menuPrincipal_ItemClicked(object sender, ToolStripItemClickedEventArgs e)
+        {
+
+        }
     }
 }
 

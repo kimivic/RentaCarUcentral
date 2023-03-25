@@ -44,7 +44,7 @@
             // 
             this.lblSubtítuloReporte.AutoSize = true;
             this.lblSubtítuloReporte.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblSubtítuloReporte.Location = new System.Drawing.Point(77, 60);
+            this.lblSubtítuloReporte.Location = new System.Drawing.Point(101, 60);
             this.lblSubtítuloReporte.Name = "lblSubtítuloReporte";
             this.lblSubtítuloReporte.Size = new System.Drawing.Size(669, 20);
             this.lblSubtítuloReporte.TabIndex = 0;
@@ -54,7 +54,7 @@
             // 
             this.lblTítuloReporte.AutoSize = true;
             this.lblTítuloReporte.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblTítuloReporte.Location = new System.Drawing.Point(318, 29);
+            this.lblTítuloReporte.Location = new System.Drawing.Point(342, 29);
             this.lblTítuloReporte.Name = "lblTítuloReporte";
             this.lblTítuloReporte.Size = new System.Drawing.Size(118, 22);
             this.lblTítuloReporte.TabIndex = 1;
@@ -125,7 +125,7 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.ClientSize = new System.Drawing.Size(800, 450);
+            this.ClientSize = new System.Drawing.Size(880, 450);
             this.ControlBox = false;
             this.Controls.Add(this.lblIndicaciones);
             this.Controls.Add(this.btnSalir);

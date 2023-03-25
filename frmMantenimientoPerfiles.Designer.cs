@@ -172,6 +172,7 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1053, 450);
+            this.ControlBox = false;
             this.Controls.Add(this.lsvMantPerfiles);
             this.Controls.Add(this.btnSalir);
             this.Controls.Add(this.btnRegresar);

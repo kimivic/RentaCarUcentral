@@ -61,7 +61,10 @@ namespace Proyecto
 
         private void btnRegresar_Click(object sender, EventArgs e)
         {
+            Form MenuPrincipal = new frmMenu();
+            MenuPrincipal.Show();
 
+            this.Hide();
         }
 
         private void btnActualizar_Click(object sender, EventArgs e)
@@ -71,7 +74,7 @@ namespace Proyecto
 
         private void btnSalir_Click(object sender, EventArgs e)
         {
-
+            Application.Exit();
         }
 
         private void lstMantVehiculos_SelectedIndexChanged(object sender, EventArgs e)

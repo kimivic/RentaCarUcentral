@@ -16,5 +16,18 @@ namespace Proyecto
         {
             InitializeComponent();
         }
+
+        private void btnRegresar_Click(object sender, EventArgs e)
+        {
+            Form MenuPrincipal = new frmMenu();
+            MenuPrincipal.Show();
+
+            this.Hide();
+        }
+
+        private void btnSalir_Click(object sender, EventArgs e)
+        {
+            Application.Exit();
+        }
     }
 }

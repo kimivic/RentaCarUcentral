@@ -180,7 +180,7 @@
             this.Controls.Add(this.grbDatos);
             this.Controls.Add(this.btnCrear);
             this.Name = "frmMantenimientoServicios";
-            this.Text = "frmMantenimientoServicios";
+            this.Text = "MantenimientoServicios";
             this.Load += new System.EventHandler(this.frmMantenimientoServicios_Load);
             this.grbDatos.ResumeLayout(false);
             this.grbDatos.PerformLayout();

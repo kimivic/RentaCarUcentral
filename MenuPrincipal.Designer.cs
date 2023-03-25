@@ -87,6 +87,7 @@
             this.menuPrincipal.Size = new System.Drawing.Size(1067, 28);
             this.menuPrincipal.TabIndex = 2;
             this.menuPrincipal.Text = "menuStrip1";
+            this.menuPrincipal.ItemClicked += new System.Windows.Forms.ToolStripItemClickedEventHandler(this.menuPrincipal_ItemClicked);
             // 
             // reservasToolStripMenuItem
             // 
@@ -101,14 +102,14 @@
             // prereservaToolStripMenuItem
             // 
             this.prereservaToolStripMenuItem.Name = "prereservaToolStripMenuItem";
-            this.prereservaToolStripMenuItem.Size = new System.Drawing.Size(224, 26);
+            this.prereservaToolStripMenuItem.Size = new System.Drawing.Size(195, 26);
             this.prereservaToolStripMenuItem.Text = "Pre-reserva";
             this.prereservaToolStripMenuItem.Click += new System.EventHandler(this.prereservaToolStripMenuItem_Click);
             // 
             // facturarReservaToolStripMenuItem
             // 
             this.facturarReservaToolStripMenuItem.Name = "facturarReservaToolStripMenuItem";
-            this.facturarReservaToolStripMenuItem.Size = new System.Drawing.Size(224, 26);
+            this.facturarReservaToolStripMenuItem.Size = new System.Drawing.Size(195, 26);
             this.facturarReservaToolStripMenuItem.Text = "Facturar reserva";
             this.facturarReservaToolStripMenuItem.Click += new System.EventHandler(this.facturarReservaToolStripMenuItem_Click);
             // 
@@ -288,14 +289,16 @@
             // cerrarSesiónToolStripMenuItem
             // 
             this.cerrarSesiónToolStripMenuItem.Name = "cerrarSesiónToolStripMenuItem";
-            this.cerrarSesiónToolStripMenuItem.Size = new System.Drawing.Size(177, 26);
+            this.cerrarSesiónToolStripMenuItem.Size = new System.Drawing.Size(224, 26);
             this.cerrarSesiónToolStripMenuItem.Text = "Cerrar sesión";
+            this.cerrarSesiónToolStripMenuItem.Click += new System.EventHandler(this.cerrarSesiónToolStripMenuItem_Click);
             // 
             // salirToolStripMenuItem
             // 
             this.salirToolStripMenuItem.Name = "salirToolStripMenuItem";
-            this.salirToolStripMenuItem.Size = new System.Drawing.Size(177, 26);
+            this.salirToolStripMenuItem.Size = new System.Drawing.Size(224, 26);
             this.salirToolStripMenuItem.Text = "Salir";
+            this.salirToolStripMenuItem.Click += new System.EventHandler(this.salirToolStripMenuItem_Click);
             // 
             // frmMenu
             // 
