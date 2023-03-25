@@ -41,14 +41,14 @@ namespace Proyecto
 
                 StreamWriter escribir = new StreamWriter(ruta + archivo, true); // el true hace que grabe registro por registro
                 if (File.Exists(ruta + archivo))
-                    {
+                    {   // si algun dato est mal envia la alerta 
                         if (cmbCodClase.SelectedItem == null || txtCostoxDía.Text.Equals("") || txtCilindrada.Text.Equals(""))
                         {
                             MessageBox.Show("Datos incompletos", "alerta", MessageBoxButtons.OK, MessageBoxIcon.Error);
                            cmbCodClase.Focus();
                         }
                         else
-                        {
+                        { // de estar los datos bien enviara la alerta que datos guardados 
                             escribir.WriteLine(cmbCodClase.Text + "," + txtCostoxDía.Text + "," + txtCilindrada.Text);
                             escribir.Close();
 
@@ -57,7 +57,7 @@ namespace Proyecto
                         }
                     }
                     else
-                    {
+                    {           // con este validara la ruta que exista 
                         MessageBox.Show("Ruta o nombre del archivo no existen", "Validacion", MessageBoxButtons.OK, MessageBoxIcon.Error);
                     }
             }
@@ -102,7 +102,7 @@ namespace Proyecto
 
         }
 
-
+        // una pequeña lista del codigo costo y cilindraje 
         public void cargarListView()
         {
             lsvMantClases.Clear();
@@ -111,14 +111,14 @@ namespace Proyecto
             lsvMantClases.Columns.Add("CILINDRADA").Width = 50;
 
         }
-        public void leerArchivo()
+        public void leerArchivo()  // llamamos al archivo leer
         {
 
             try
             {
-                StreamReader leer = new StreamReader(ruta + archivo);
+                StreamReader leer = new StreamReader(ruta + archivo);  // ruta leer
 
-                string codigoClase, costoxDia, cilindrada;
+                string codigoClase, costoxDia, cilindrada; // varibles
 
                 cargarListView();
 
@@ -150,7 +150,7 @@ namespace Proyecto
 
             }
         }     
-
+        // regresa menu
         private void btnRegresar_Click(object sender, EventArgs e)
         {
             Form MenuPrincipal = new frmMenu();
@@ -158,7 +158,7 @@ namespace Proyecto
 
             this.Hide();
         }
-
+        // sale del sistema
         private void btnSalir_Click(object sender, EventArgs e)
         {
             Application.Exit();
@@ -190,7 +190,7 @@ namespace Proyecto
                     linea = leer.ReadLine();
 
                     string[] separador = linea.Split(',');
-
+                    // en este orden acomodara los datos 
                     if (separador[0] != cmbCodClase.Text || separador[1] != txtCostoxDía.Text || separador[2] != txtCilindrada.Text)
                     {
                         escribir.WriteLine(linea);
@@ -200,8 +200,8 @@ namespace Proyecto
                 leer.Close();
                 escribir.Close();
 
-                File.Delete(ruta + archivo);
-                File.Move(ruta + archivoTemporal, ruta + archivo);
+                File.Delete(ruta + archivo); // hace el delete
+                File.Move(ruta + archivoTemporal, ruta + archivo); // luego lo vuelve a llenar
 
                 leerArchivo();
             }

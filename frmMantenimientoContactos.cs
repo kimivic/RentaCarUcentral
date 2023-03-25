@@ -85,7 +85,7 @@ namespace Proyecto
                 StreamWriter escribir = new StreamWriter(ruta + archivo, true); // el true hace que grabe registro por registro
 
                 if (File.Exists(ruta + archivo))
-                {
+                {       // si no cumple estas condiciones 
                     if (txtIdentificación.Text.Equals("") || txtCorreo.Text.Equals("") || txtTeléfono.Text.Equals(""))
                     {
                         MessageBox.Show("Datos incompletos completos", "alerta", MessageBoxButtons.OK, MessageBoxIcon.Error);
